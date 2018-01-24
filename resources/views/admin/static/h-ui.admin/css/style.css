@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 你自己的样式 */
+#cuo{
+    color:#ff0101;
+}
+/*获取焦点放大*/
+
+.images img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.images img:hover{
+    transform: scale(3);
+}
